@@ -31,7 +31,7 @@ fun DeviceScreen(
             onClick = onDeviceClick,
             modifier = Modifier
                 .fillMaxWidth()
-                .weight(1f) // expand the available space except Row belo
+                .weight(1f) // expand the available space except Row below
         )
         Row(
             modifier = Modifier.fillMaxWidth(),
